@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Owen Gibson</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: #f2f2f2;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .project {
+      background-color: #1c1c1c;
+      padding: 1rem;
+      margin: 1rem auto;
+      border-radius: 8px;
+      max-width: 800px;
+    }
+    .project h2 {
+      color: #00bcd4;
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin: 0.5rem 0;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #00bcd4;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      color: #00bcd4;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Main</a>
+    <a href="projects.html">Projects</a>
+    <a href="videos.html">Videos</a>
+  </nav>
+
+  <h1>My Projects & CTF Writeups</h1>
+
+  <div class="project">
+    <h2>Password Cracking Challenge</h2>
+    <img src="password_cracking.jpg" alt="Password Cracking">
+    <p>
+      A deep dive into hash analysis and cracking techniques using tools like Hashcat and John the Ripper. Learn how I approached and broke down the challenge.
+    </p>
+    <a href="password-cracking.html">Read the walkthrough →</a>
+  </div>
+
+  <div class="project">
+    <h2>Forensic Memory Analysis</h2>
+    <img src="memory_analysis.jpg" alt="Memory Analysis">
+    <p>
+      Using Volatility to uncover hidden processes, malware, and flags within memory dumps in a CTF environment.
+    </p>
+    <a href="memory-analysis.html">Read the walkthrough →</a>
+  </div>
+
+  <div class="project">
+    <h2>Web Exploitation API Hijack</h2>
+    <img src="api_exploit.jpg" alt="API Exploit">
+    <p>
+      A writeup on how I discovered and exploited an insecure API to bypass login and dump user data during a CTF.
+    </p>
+    <a href="api-exploit.html">Read the walkthrough →</a>
+  </div>
+</body>
+</html>
